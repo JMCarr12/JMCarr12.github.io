@@ -5,7 +5,7 @@ $(document).ready(function() {
 });
 
 function addItem() {
-  console.log("Yes");
+  // console.log("Yes");
   var text = window.prompt("Please Add a Book!");
   var delete_link = '<a href="#" class="link-delete">(Delete)</a>'
   $("ol").append("<li>" + text + " " + delete_link + "</li>");
@@ -22,6 +22,6 @@ function addItem() {
 
 function deleteItem(event) {
   console.info(event);
-  $(event.target).remove();
+  // $(event.target).remove();
   $(event.target).parent().remove();
 }
