@@ -1,0 +1,34 @@
+body {
+  font-family: 'Amatic SC', cursive;
+  width: 960px;
+  margin: 10px auto;
+}
+img {
+  width: 150px;
+  /*box-shadow: 8px 8px 4px #AAA;*/
+  /*float: right;*/
+}
+
+.header {
+  background: #EEE;
+  padding: 14px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+}
+
+h3 {
+  border-bottom: solid 4px gray;
+  padding-bottom: 8px;
+}
+
+.jumbotron {
+    position: relative;
+    background: #000 url("http://www.walleo.co/wp-content/uploads/2016/01/Mint-Green-Chevron-Wallpaper-U22Z.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
