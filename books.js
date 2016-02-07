@@ -5,11 +5,11 @@ $(document).ready(function() {
 });
 
 function addItem() {
-  // console.log("Yes");
-  var text = window.prompt("Add a Book!");
+  console.log("Yes");
+  var text = window.prompt("Please Add a Book!");
   var delete_link = '<a href="#" class="link-delete">(Delete)</a>'
   $("ol").append("<li>" + text + " " + delete_link + "</li>");
-  //
+
   var numItems = $("li").length;
   $(".total").html(numItems + " items");
   }
@@ -22,6 +22,6 @@ function addItem() {
 
 function deleteItem(event) {
   console.info(event);
-  // $(event.target).remove();
+  $(event.target).remove();
   $(event.target).parent().remove();
 }
