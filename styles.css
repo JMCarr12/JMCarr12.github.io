@@ -1,6 +1,7 @@
 body {
   font-family: 'Playfair Display', serif;
   COLOR: #191970
+  height: 100%;
   /*width: 960px;*/
   /*margin: 10px auto;*/
 }
@@ -58,4 +59,9 @@ h3 {
     overflow-x: hidden;
     border-top: 0;
     /*min-width: 960px*/
+}
+
+#footer {
+height: 330px;
+position: relative;
 }
