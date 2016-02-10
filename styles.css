@@ -57,5 +57,5 @@ h3 {
     background-size: cover;
     overflow-x: hidden;
     border-top: 0;
-    /*min-width: 960px*/
+    min-width: 960px
 }
