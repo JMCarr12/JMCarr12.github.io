@@ -5,9 +5,8 @@ body {
   /*margin: 10px auto;*/
 }
 img {
-  width: 400px;
-  /*box-shadow: 8px 8px 4px #AAA;*/
-  /*float: right;*/
+    max-width: 100%;
+    height: auto;
 }
 
 .header {
